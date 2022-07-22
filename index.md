@@ -18,7 +18,6 @@ while True:
             print(win32gui.GetCursorPos())
     time.sleep(0.001)
 ```
-
 #### 2. generate interpolation of data using scipy
 
 ```python
