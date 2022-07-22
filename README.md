@@ -4,7 +4,7 @@ a simple equation generator for graphwar, equation calculated using discrete cos
 
 Please use responsibly, don't ruin others day.  
 
-Dependencies:  
+# Dependencies:  
 win32api  
 pyperclip  
 matplotlib  
