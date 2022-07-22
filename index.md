@@ -50,8 +50,7 @@ while i < sample_num:
     equation_str+=f"+{dct_result[i]/sample_num:.10f}*cos({i}pi((x-{np.amin(xdata)})*({sample_num}-1)/({np.amax(xdata)}-{np.amin(xdata)})+0.5)/{sample_num})"
     i+=1
 ```
-
-
+#### more footage
 
 ![螢幕擷取畫面 2022-07-23 024047 (2)](https://user-images.githubusercontent.com/81552194/180503787-d8ac63c7-6b2a-4dc9-a053-780e599c3429.png)
 
