@@ -23,5 +23,5 @@ open graphwar
 10.paste the equation into the game    
 
 note: if you need higher accuracy, change the sample_num in line 84 to 95 (don't go over 100 you break the game)  
-also this is not meant to ruin others fun
+also this is not meant to ruin others fun  
 don't forget to check out [here](https://edleebinj.github.io/graphwar-generator/) to get a peak of how this program works
