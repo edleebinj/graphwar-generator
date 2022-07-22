@@ -106,7 +106,7 @@ if __name__ == '__main__':
     #plt.plot(x_sample,y_cubic_sample,label="cubic sampling",color='blue')
     plt.legend(loc='upper left')
     plt.show()
-    print(dct_result)
+    #print(dct_result)
     cutoff=1e-10
     dct_result[abs(dct_result)<cutoff]=0.0
     equation_str = f"{(dct_result[0]/sample_num)/2:.10f}"
