@@ -20,6 +20,7 @@ also check out [https://edleebinj.github.io/graphwar-generator/](https://edleebi
 
 
 ![螢幕擷取畫面 2022-07-23 024047 (2)](https://user-images.githubusercontent.com/81552194/180503787-d8ac63c7-6b2a-4dc9-a053-780e599c3429.png)
-![123123](https://user-images.githubusercontent.com/81552194/180506242-1b073c8d-78ba-4257-839f-2b8b88d44b65.jpg)
-![22](https://user-images.githubusercontent.com/81552194/180506249-242b7c4a-89ee-4824-abe6-ffd9e2922498.jpg)
-![22321](https://user-images.githubusercontent.com/81552194/180506256-3a5cad7f-777c-4798-9862-0263f5740e3f.jpg)
+
+![22](https://user-images.githubusercontent.com/81552194/180507038-d35346b5-d2d7-4c74-a064-2dc517c9494a.jpg)
+![22321](https://user-images.githubusercontent.com/81552194/180507042-281a7948-31ff-4503-be37-187f6298ebc0.jpg)
+![123123](https://user-images.githubusercontent.com/81552194/180507046-cdcf814f-24c0-4a0a-9f20-30d1b134b1be.jpg)
