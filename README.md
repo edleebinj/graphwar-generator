@@ -2,7 +2,7 @@
 a simple equation generator for graphwar, equation calculated using discrete cosine transformation.  
 Please use responsibly, don't ruin others day.  
 
-# Dependencies:  
+# Dependencies  
 win32api  
 pyperclip  
 matplotlib  
