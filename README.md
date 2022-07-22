@@ -1,6 +1,8 @@
 # graphwar-generator
 
-Please use responsibly, don't ruin others day.
+a simple equation generator for graphwar, equation calculated using discrete cosine transformation.  
+
+Please use responsibly, don't ruin others day.  
 
 Dependencies:  
 win32api  
