@@ -16,8 +16,10 @@ open graphwar
 4.click the top-right corner of the plane  
 5.click yourself   
 6.click the points you want to hit   
-7.hit enter when done, and there will be a preview of the shape of the function  
-8.close the preview, the equation is automatically copied to clipboard, just paste it into the game  
+7.hit enter when done  
+8.there will be a preview of the shape of the function  
+9.close the preview, the equation is automatically copied to clipboard  
+10.paste the equation into the game    
 
 note: if you need higher accuracy, change the sample_sum in line 93 to 200 (don't go over 500), you break the game  
 this is not meant to ruin others fun
