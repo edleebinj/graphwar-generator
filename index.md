@@ -25,6 +25,7 @@ while True:
 f_linear_interp = np.array([0])
 f_linear_interp = interp1d(xdata,ydata)
 ```
+![Figure_1](https://user-images.githubusercontent.com/81552194/180514007-91cd0a28-1059-49c1-9f58-3615603c43b2.png)
 #### 3. generate samples and apply dct
 ```python
 f_linear_interp=np.array([0])
@@ -54,8 +55,11 @@ while i < sample_num:
 
 
 ![螢幕擷取畫面 2022-07-23 024047 (2)](https://user-images.githubusercontent.com/81552194/180503787-d8ac63c7-6b2a-4dc9-a053-780e599c3429.png)
+
 ![22](https://user-images.githubusercontent.com/81552194/180507038-d35346b5-d2d7-4c74-a064-2dc517c9494a.jpg)
+
 ![22321](https://user-images.githubusercontent.com/81552194/180507042-281a7948-31ff-4503-be37-187f6298ebc0.jpg)
+
 ![123123](https://user-images.githubusercontent.com/81552194/180507046-cdcf814f-24c0-4a0a-9f20-30d1b134b1be.jpg)
 
 You can go to [edleeebinj's github](https://github.com/edleebinj/) to have fun.
