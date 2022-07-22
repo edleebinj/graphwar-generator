@@ -14,8 +14,6 @@ graphwar cheat using discrete cosine transform
 '''
 if __name__ == '__main__':
     listoftuples=[]
-    #print(lagr(listoftuples))
-
     print("click the center of cartesian plane")
 
     state_left = win32api.GetKeyState(0x01)
@@ -47,8 +45,6 @@ if __name__ == '__main__':
                 break
             else:
                 pass
-
-            #break
         time.sleep(0.001)
 
     print("click the point you want the graph to go through, and press enter when you finished")
@@ -67,14 +63,10 @@ if __name__ == '__main__':
                 print(win32gui.GetCursorPos())
             else:
                 pass
-
-            #break
         time.sleep(0.001)
 
-    '''print(lagr(listoftuples).replace("--","+"))#replace -- into +
-    pyperclip.copy(lagr(listoftuples).replace("--","+"))#copy to clipboard'''
-
-
+    #print(lagr(listoftuples).replace("--","+"))#replace -- into +
+    #pyperclip.copy(lagr(listoftuples).replace("--","+"))#copy to clipboard
 ######################################
 
     listoftuples.sort(key=lambda tup: tup[0])#sort listoftuples
@@ -87,8 +79,7 @@ if __name__ == '__main__':
     #x_interp_point=np.linspace(np.amin(xdata),np.amax(xdata),num=100,endpoint=True) #interpolation point for x
     f_linear_interp=np.array([0])
     f_linear_interp = interp1d(xdata,ydata)#linear interpolation function
-    #f_cubic_interp = interp1d(xdata,ydata,kind='cubic')#cubic interpolation function
-    #cubic works really badly
+    #f_cubic_interp = interp1d(xdata,ydata,kind='cubic')#cubic interpolation function #cubic works really badly
 
     sample_num=80
 
@@ -96,7 +87,6 @@ if __name__ == '__main__':
     y_linear_sample=f_linear_interp(x_sample)#change cubic or linear hear
     #y_cubic_sample=f_cubic_interp(x_sample)
     
-
     #dft_coefficient=fft(y_linear_sample)
     dct_result=scipy.fftpack.dct(y_linear_sample)
 
@@ -113,10 +103,6 @@ if __name__ == '__main__':
     i=1
     while i < sample_num:
         equation_str+=f"+{dct_result[i]/sample_num:.10f}*cos({i}pi((x-{np.amin(xdata)})*({sample_num}-1)/({np.amax(xdata)}-{np.amin(xdata)})+0.5)/{sample_num})"
-        #equation_str+=f"+{dct_result[i]/sample_num:.10f}*cos({i}pi(x+0.5-{np.amin(xdata)})/{sample_num})"
         i+=1
     #print(equation_str)
     pyperclip.copy(equation_str.replace("--","+"))#replace -- with +
-    #print(dft_coefficient)
-    #plt.plot(freq,dft_coefficient.real,freq,dft_coefficient.imag)
-    #plt.show()
