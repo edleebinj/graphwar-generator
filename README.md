@@ -8,7 +8,7 @@ pyperclip
 matplotlib  
 scipy  
 
-#usage  
+# usage  
 open graphwar  
 1.run main.py  
 2.wait for the libraries to load  
