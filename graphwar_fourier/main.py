@@ -1,6 +1,6 @@
 import win32api,win32con,win32gui
 import time
-from lagrange import lagr,transf#,fourier_series #is used for lagrange interpolation
+from lagrange import lagr,transf#,fourier_series #used for lagrange interpolation
 from scipy.interpolate import interp1d
 import pyperclip
 import numpy as np
@@ -10,7 +10,6 @@ from scipy.fftpack import fftfreq
 
 '''
 graphwar cheat using discrete cosine transform
-tutorial 
 
 '''
 if __name__ == '__main__':
