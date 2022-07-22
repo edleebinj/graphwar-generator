@@ -81,7 +81,7 @@ if __name__ == '__main__':
     f_linear_interp = interp1d(xdata,ydata)#linear interpolation function
     #f_cubic_interp = interp1d(xdata,ydata,kind='cubic')#cubic interpolation function #cubic works really badly
 
-    sample_num=80
+    sample_num=50
 
     x_sample=np.linspace(np.amin(xdata),np.amax(xdata),num=sample_num,endpoint=True)#sample for dft 
     y_linear_sample=f_linear_interp(x_sample)#change cubic or linear hear
