@@ -21,5 +21,5 @@ open graphwar
 9.close the preview, the equation is automatically copied to clipboard  
 10.paste the equation into the game    
 
-note: if you need higher accuracy, change the sample_num in line 93 to 200 (don't go over 500), you break the game  
+note: if you need higher accuracy, change the sample_num in line 84 to 200 (don't go over 500), you break the game  
 this is not meant to ruin others fun
