@@ -8,6 +8,7 @@ pyperclip
 matplotlib  
 scipy  
 
+#usage  
 open graphwar  
 1.run main.py  
 2.wait for the libraries to load  
@@ -18,5 +19,5 @@ open graphwar
 7.hit enter when done, and there will be a preview of the shape of the function  
 8.close the preview, the equation is automatically copied to clipboard, just paste it into the game  
 
-if you need higher accuracy, change the sample_sum in line 93 to 200 (don't go over 500), you break the game  
-this is not meant to ruin others fun  
+note: if you need higher accuracy, change the sample_sum in line 93 to 200 (don't go over 500), you break the game  
+this is not meant to ruin others fun
