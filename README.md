@@ -1,6 +1,7 @@
 # graphwar-generator
 a simple equation generator for graphwar, equation calculated using discrete cosine transformation.  
 Please use responsibly, don't ruin others day.  
+
 <img width="962" alt="graphwar" src="https://user-images.githubusercontent.com/81552194/180501344-ae0bd2f7-e241-4a56-8acc-d53636d0daa6.png">
 
 # Dependencies  
