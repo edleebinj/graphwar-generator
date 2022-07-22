@@ -1,5 +1,3 @@
-#listoftuples=[(0,1),(2,5),(4,17)]
-from symfit import parameters, variables, sin, cos, Fit
 import numpy as np
 import matplotlib.pyplot as plt
 import operator
