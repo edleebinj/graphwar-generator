@@ -14,7 +14,7 @@ scipy
 open graphwar  
 1.run main.py  
 2.wait for the libraries to load  
-3.click the center of the plane  
+3.click the bottom-left corner of  the plane  
 4.click the top-right corner of the plane  
 5.click yourself   
 6.click the points you want to hit   
