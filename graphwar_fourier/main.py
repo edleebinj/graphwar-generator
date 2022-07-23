@@ -14,7 +14,7 @@ graphwar cheat using discrete cosine transform
 '''
 if __name__ == '__main__':
     listoftuples=[]
-    print("click the center of cartesian plane")
+    print("click the bottom left corner of the cartesian plane")
 
     state_left = win32api.GetKeyState(0x01)
     while True:
