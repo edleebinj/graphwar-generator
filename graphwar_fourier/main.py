@@ -99,10 +99,10 @@ if __name__ == '__main__':
     #print(dct_result)
     cutoff=1e-10
     dct_result[abs(dct_result)<cutoff]=0.0
-    equation_str = f"{(dct_result[0]/sample_num)/2:.10f}"
+    equation_str = f"{(dct_result[0]/sample_num)/2:.2f}"
     i=1
     while i < sample_num:
-        equation_str+=f"+{dct_result[i]/sample_num:.10f}*cos({i}pi((x-{np.amin(xdata)})*({sample_num}-1)/({np.amax(xdata)}-{np.amin(xdata)})+0.5)/{sample_num})"
+        equation_str+=f"+{dct_result[i]/sample_num:.2f}*cos({i}pi((x-{np.amin(xdata)})*({sample_num}-1)/({np.amax(xdata)}-{np.amin(xdata)})+0.5)/{sample_num})"
         i+=1
     #print(equation_str)
     pyperclip.copy(equation_str.replace("--","+"))#replace -- with +
