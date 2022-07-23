@@ -19,8 +19,11 @@ def lagr(lots): #create lagrange interpolation function. input lists of tuples
     
     return resultf
 
-def transf(o,tr,p): #transform screen coordinates to cartesian coords
-    res = tuple(map(operator.sub,tr,o)) #topright - origin
+def transf(lb,tr,p): #transform screen coordinates to cartesian coords
+    res_two = tuple(map(operator.sub,tr,lb)) #topright - leftbottom
+    res = tuple(tempe/2 for tempe in res_two)
+    o_two = tuple(map(operator.add,tr,lb))
+    o = tuple(temp/2 for temp in o_two)
     pt=((p[0]-o[0])*25/res[0],(p[1]-o[1])*14.6/res[1])
     return pt
 
