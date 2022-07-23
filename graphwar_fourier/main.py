@@ -81,7 +81,7 @@ if __name__ == '__main__':
     f_linear_interp = interp1d(xdata,ydata)#linear interpolation function
     #f_cubic_interp = interp1d(xdata,ydata,kind='cubic')#cubic interpolation function #cubic works really badly
 
-    sample_num=50
+    sample_num=500
 
     x_sample=np.linspace(np.amin(xdata),np.amax(xdata),num=sample_num,endpoint=True)#sample for dft 
     y_linear_sample=f_linear_interp(x_sample)#change cubic or linear hear
@@ -99,10 +99,10 @@ if __name__ == '__main__':
     #print(dct_result)
     cutoff=1e-10
     dct_result[abs(dct_result)<cutoff]=0.0
-    equation_str = f"{(dct_result[0]/sample_num)/2:.10f}"
+    equation_str = f"{(dct_result[0]/sample_num)/2:.2f}"
     i=1
     while i < sample_num:
-        equation_str+=f"+{dct_result[i]/sample_num:.10f}*cos({i}pi((x-{np.amin(xdata)})*({sample_num}-1)/({np.amax(xdata)}-{np.amin(xdata)})+0.5)/{sample_num})"
+        equation_str+=f"+{dct_result[i]/sample_num:.2f}*cos({i}pi((x-{np.amin(xdata)})*({sample_num}-1)/({np.amax(xdata)}-{np.amin(xdata)})+0.5)/{sample_num})"
         i+=1
     #print(equation_str)
     pyperclip.copy(equation_str.replace("--","+"))#replace -- with +
