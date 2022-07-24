@@ -61,7 +61,7 @@ while i < sample_num:
 ![123123](https://user-images.githubusercontent.com/81552194/180507046-cdcf814f-24c0-4a0a-9f20-30d1b134b1be.jpg)
 
 ## Github page 
-[here](https://edleebinj.github.io/graphwar-generator/)  
+[here](https://github.com/edleebinj/graphwar-generator)  
 
 You can go to [edleeebinj's github](https://github.com/edleebinj/) to have fun.
 
